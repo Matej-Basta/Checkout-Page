@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Checkout Page</title>
+  </head>
+  <body>
+    <section class="section">
+      <div class="section__container1">
+        <div class="section__container1__div1">
+          <p class="header">Total</p>
+          <p class="price">$698</p>
+        </div>
+        <div class="section__container1__div2">
+          <p class="header">Detail</p>
+          <div class="div">
+            <p class="product">Product One</p>
+            <p class="price2">$599</p>
+          </div>
+          <div class="div">
+            <p class="product">Product Two</p>
+            <p class="price2">$99</p>
+          </div>
+        </div>
+        <button class="section__button">PAY NOW</button>
+      </div>
+      <form class="section__form" action="#" method="post">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="John Doe" />
+        <label for="credit_card">Card number</label>
+        <input
+          type="text"
+          name="card_number"
+          id="credit_card"
+          placeholder="1111 1111 1111 1111"
+        />
+        <div class="section__form__div1">
+          <div>
+            <label>Expiration date</label>
+            <div>
+              <input
+                class="date"
+                type="number"
+                name="months"
+                placeholder="MM"
+              />
+              <input
+                class="date"
+                type="number"
+                name="year"
+                placeholder="YYYY"
+              />
+            </div>
+          </div>
+          <div class="div2">
+            <label for="cvv">Cvv</label>
+            <input type="number" id="cvv" name="cvv" placeholder="123" />
+          </div>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>

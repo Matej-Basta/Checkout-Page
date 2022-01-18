@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lato", Helvetica, sans-serif;
+}
+body .section {
+  width: 40%;
+  height: 50vh;
+  border-radius: 5px;
+  box-shadow: 0px 0px 40px 2px #eeeeee;
+  position: relative;
+}
+body .section__container1 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  justify-content: space-around;
+  padding: 3rem;
+  align-items: center;
+}
+body .section__container1__div1 {
+  text-align: center;
+}
+body .section__container1__div1 .header {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: #cccccc;
+}
+body .section__container1__div1 .price {
+  color: #66a6ff;
+  margin-top: 0.3rem;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+body .section__container1__div2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 70%;
+}
+body .section__container1__div2 .header {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: #cccccc;
+  margin-bottom: 0.3rem;
+}
+body .section__container1__div2 .div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.3rem;
+}
+body .section__container1__div2 .div .product {
+  color: black;
+  font-size: 0.8rem;
+}
+body .section__container1__div2 .div .price2 {
+  color: #66a6ff;
+  font-weight: 800;
+}
+body .section__button {
+  width: 50%;
+  height: 5vh;
+  border-radius: 20px;
+  background: transparent;
+  color: #66a6ff;
+  font-size: 0.6rem;
+  font-weight: 800;
+  border: solid #66a6ff 2px;
+}
+body .section__button:hover {
+  background-color: #66a6ff;
+  color: white;
+}
+body .section__form {
+  background-color: #66a6ff;
+  box-shadow: -8px 8px 56px 8px #cccccc;
+  position: absolute;
+  right: -15%;
+  top: 12%;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  border-radius: 10px;
+  color: white;
+  width: 65%;
+}
+body .section__form label {
+  text-transform: uppercase;
+  opacity: 0.7;
+  font-size: 0.8rem;
+  margin-bottom: 0.2rem;
+}
+body .section__form input {
+  border: none;
+  height: 4vh;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  padding: 0.3rem 0.4rem;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+body .section__form input:focus {
+  border: solid 5px darkblue;
+}
+body .section__form ::placeholder {
+  color: white;
+  opacity: 0.5;
+}
+body .section__form__div1 {
+  display: flex;
+  justify-content: space-between;
+}
+body .section__form__div1 .date {
+  width: 30%;
+  margin-top: 0.2rem;
+}
+body .section__form__div1 .div2 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0.2rem;
+  width: 25%;
+}
+body .section__form__div1 .div2 input {
+  margin-top: 0.2rem;
+}
